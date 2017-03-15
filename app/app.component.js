@@ -18,7 +18,10 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             template: "<h1>Hello World</h1>\n  \t\t\t\t\t <my-tutorials></my-tutorials>",
-            directives: [tutorials_component_1.TutorialsComponent]
+            directives: [tutorials_component_1.TutorialsComponent],
+            styles: [
+                "h1{\n  \t\tcolor : red;\n  \t}"
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

@@ -7,6 +7,11 @@ import { TutorialsComponent } from './tutorials.component';
   selector: 'my-app',
   template: `<h1>Hello World</h1>
   					 <my-tutorials></my-tutorials>`, // add meta data
-  directives: [TutorialsComponent]
+  directives: [TutorialsComponent],
+  styles :[
+  	`h1{
+  		color : red;
+  	}`
+  ]
 })
 export class AppComponent { }
