@@ -17,10 +17,10 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1>Hello World</h1>\n  \t\t\t\t\t <my-tutorials></my-tutorials>",
+            template: "<h1>Hello World</h1>\n            <my-tutorials></my-tutorials>",
             directives: [tutorials_component_1.TutorialsComponent],
             styles: [
-                "h1{\n  \t\tcolor : red;\n  \t}"
+                "h1{\n        color : red;\n    }"
             ]
         }), 
         __metadata('design:paramtypes', [])
